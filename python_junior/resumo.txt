@@ -1,0 +1,47 @@
+Criando uma lista:
+Lista=[] ou Lista = list()
+
+.append() = Vai adicionar algo relacionado a lista
+
+range(inicio,fim,parâmetro)= Estrutura que conta do inicio até o fim atravez de parâmetros.
+
+for i in x: Estrutura de repetição
+
+map = percorre uma determinada lista ou algo semelhante e transforma para int,srt,float e etc.
+
+len = retorna a quantidade de elementos.
+
+enumerate(lista,start=1) = vai atribuir a numeração em uma lista.
+
+zip  = recebe um conjunto de contaneirs.
+
+sum = soma os elementos.
+
+def = definir
+
+lambda = função anonima (semelhante uma tomada de decisão)
+
+.count() = conta quantos elementos tem na minha lista.
+
+from functools import reduce = biblioteca reduce reduz e-nesimos elementos para 1 ou um conjunto menor. 
+ Exemplo: reduce( lambda x, y: x + y, Map, start )
+
+ filter = função que mantem os elementos verdadeiros e descarta os falsos.
+
+ .lower = transforma todas letras em minusculo
+
+ string.join(iterable) = método pega todos os itens em um iterável e os une em uma string.
+
+   myTuple = ("John", "Peter", "Vicky")
+   x = "#".join(myTuple)
+   print(x)
+   John#Peter#Vicky
+
+sorted() = ordena os caracteres.
+
+Outra forma de utilizar o input(), porem de forma mais agil é com stdin, como veremos no exemplo a seguir:
+
+from sys import stdin
+
+num_cases = int(stdin.readline())
+
